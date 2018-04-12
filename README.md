@@ -34,5 +34,11 @@ $ virtualenv capstone_vm
 $ source capstone_vm/bin/activate  
 $ pip install -r requirements.txt  
 
-Run the Fidelity Comentery Scraper (if required). The Comentary directory is allready populated with baseline   
+Run the Fidelity Comentery Scraper (optional).   
+
+The FidelityScraper uses Selenium WebDriver. Selenium requires a driver to interface with the chosen browser. Firefox, for example, requires geckodriver, which needs to be installed before the FidelityScraper is run. Make sure it’s in your PATH  
+For more info (http://selenium-python.readthedocs.io/installation.html)  
+
+After you have the corresponding driver installed, run following command to populate comentery files in your local  
+
 $ python FidelityComenteryWebScraper/FidelityScraper.py   
