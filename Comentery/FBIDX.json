@@ -1,0 +1,27 @@
+{
+    "MorningStartRatingInfo": {
+        "Expenses": "1 out of 5, Low Fees",
+        "OverallRating": "3 out of 5 stars",
+        "Returns": "3 out of 5, Average Returns",
+        "Risks": "1 out of 5, Low Fees"
+    },
+    "PerformanceInfo": {
+        "AverageAnnualReturn10Y": "+3.40%",
+        "AverageAnnualReturn1Y": "+0.90%",
+        "AverageAnnualReturn3Y": "+0.99%",
+        "AverageAnnualReturn5Y": "+1.60%",
+        "AverageAnnualReturnYTD": "-1.46%"
+    },
+    "PortfolioManagerQA": {
+        "KeyTakeaway": "",
+        "PortfolioManagersPlan": ""
+    },
+    "QuarterlyFundReview": {
+        "OutlookAndPositioning": "",
+        "PerformanceReview": "U.S. taxable investment-grade bonds posted a slightly positive return for the fourth quarter of 2017, amid record low volatility and strong demand for new issues. The Bloomberg Barclays U.S. Aggregate Bond Index returned 0.39%, as coupon income more than offset the negative price impact of modestly higher interest rates. The passage of a federal tax-reform package contributed to higher yields during the period, though its overall impact on the bond market has been fairly modest thus far.Longer-term rates rose moderately during the period, while shorter-term rates advanced more, continuing their yearlong climb and resulting in an ongoing flattening of the yield curve. The Federal Open Market Committee (FOMC) raised target interest rates by 0.25 percentage points in December, and recent Fed communications suggest a broad-based consensus exists for the continuation of gradual policy-rate normalization. The Fed is planning for three quarter-point hikes in 2018; at period end, the market expected roughly two hikes for the new year.In addition, in October the FOMC began the process of slowly paring back the $4.5 trillion-worth of Treasury bonds and mortgage-backed securities on its balance sheet. This long process of balance-sheet normalization may contribute to an uptick in volatility and higher market yields over time.Most economists believe the U.S. economy remains healthy, driven by strong consumer sentiment, ample business investment and a steadily tightening labor market. The unemployment rate continues to hover near a 17-year low, and many market participants expect continued labor market strength in 2018.Within the Bloomberg Barclays index, yield-advantaged, credit-sensitive sectors led the way amid a supportive backdrop for risk assets. U.S. corporate bonds advanced broadly, returning 1.17% for the quarter, meaningfully outpacing Treasuries (+0.05%). Within corporates, bonds issued by utility companies slightly outperformed those from financial and industrial firms.Within securitized sectors of the market, commercial mortgage-backed securities (CMBS) edged Treasury investments with a return of 0.35%, partly driven by limited supply of these securities. Mortgage-backed securities (MBS) also had a slightly positive showing, advancing 0.15%.Among non-core fixed-income segments, U.S. corporate high yield outperformed similar-duration Treasuries with a return of 0.47%, according to Bloomberg Barclays, although the return notably lagged the absolute and risk-adjusted return of the past several quarters. Investment-grade emerging-markets performed similarly, returning 0.63%. Elsewhere, U.S. Treasury Inflation-Protected Securities (TIPS) stood out with a return of 1.26%, outperforming nominal Treasuries. \u25a0",
+        "PerformanceReviewDate": "DECEMBER 31, 2017"
+    },
+    "symbol": "FBIDX",
+    "title": "Fidelity\u00ae U.S. Bond Index Fund - Investor Class",
+    "url": "http://fundresearch.fidelity.com/mutual-funds/analysis/315911107"
+}

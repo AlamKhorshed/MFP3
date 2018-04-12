@@ -1,0 +1,26 @@
+{
+    "MorningStartRatingInfo": {
+        "Expenses": "1 out of 5, Low Fees",
+        "OverallRating": "3 out of 5 stars",
+        "Returns": "3 out of 5, Average Returns",
+        "Risks": "1 out of 5, Low Fees"
+    },
+    "PerformanceInfo": {
+        "AverageAnnualReturn10Y": "+4.03%",
+        "AverageAnnualReturn1Y": "+4.86%",
+        "AverageAnnualReturn3Y": "+3.48%",
+        "AverageAnnualReturn5Y": "+3.74%",
+        "AverageAnnualReturnYTD": "-0.42%"
+    },
+    "PortfolioManagerQA": {
+        "KeyTakeaway": "",
+        "PortfolioManagersPlan": ""
+    },
+    "QuarterlyFundReview": {
+        "OutlookAndPositioning": "",
+        "PerformanceReview": ""
+    },
+    "symbol": "FFFAX",
+    "title": "Fidelity Freedom\u00ae Income Fund",
+    "url": "http://fundresearch.fidelity.com/mutual-funds/analysis/31617R308"
+}
