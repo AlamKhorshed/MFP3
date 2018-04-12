@@ -142,16 +142,23 @@ def fetch_fund_details(url):
     quarterlyFundReview = {}
 
     #PerformanceReviewDate
-    performanceReviewDate = driver2.find_element_by_css_selector('#shcomm-QuarterlyFundReviewDate')
-    quarterlyFundReview['PerformanceReviewDate'] = performanceReviewDate.text
-
+    try:
+        performanceReviewDate = driver2.find_element_by_css_selector('#shcomm-QuarterlyFundReviewDate')
+        quarterlyFundReview['PerformanceReviewDate'] = performanceReviewDate.text
+    except:
+        pass
     #PerformanceReview
-    paragraphs = driver2.find_elements_by_css_selector('#shcomm-QuarterlyFundReviewTopContent > p')
-    quarterlyFundReview['PerformanceReview'] = ''.join (str(paragraph.text) for paragraph in paragraphs)
-
+    try:
+        paragraphs = driver2.find_elements_by_css_selector('#shcomm-QuarterlyFundReviewTopContent > p')
+        quarterlyFundReview['PerformanceReview'] = ''.join (str(paragraph.text) for paragraph in paragraphs)
+    except:
+        pass
     #OutlookAndPositioning
-    outlooks = driver2.find_elements_by_css_selector('#shcomm-QuarterlyFundReviewBottomContent1 > p')
-    quarterlyFundReview['OutlookAndPositioning'] = ''.join (str(outlook.text) for outlook in outlooks)
+    try:
+        outlooks = driver2.find_elements_by_css_selector('#shcomm-QuarterlyFundReviewBottomContent1 > p')
+        quarterlyFundReview['OutlookAndPositioning'] = ''.join (str(outlook.text) for outlook in outlooks)
+    except:
+        pass
 
     fund_details['QuarterlyFundReview'] = quarterlyFundReview
 
@@ -206,7 +213,6 @@ def main():
         print(url)
         #print(fetch_fund_details(url))
         commentery = fetch_fund_details(url)
-        #break
 
         path = 'Comentery/%s.json' % commentery['symbol']
         content = json.dumps(commentery, indent=4, sort_keys=True)
